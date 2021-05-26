@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import aboutStyles from '../styles/About.module.css'
 
 const About = () => {
     return(
@@ -6,7 +7,9 @@ const About = () => {
             <Head>
                 <title>My First NextJS App - About</title>
             </Head>
-            <h1>About FirstNextJS</h1>
+            <section className={aboutStyles.wrapper}>
+                <h1>About FirstNextJS</h1>
+            </section>
         </>
     )
 }
