@@ -9,6 +9,11 @@ const About = () => {
             </Head>
             <section className={aboutStyles.wrapper}>
                 <h1>About FirstNextJS</h1>
+                <div className={aboutStyles.description}>
+                    <p>
+                        This app is designed to demonstrate the capabilities of NextJS.
+                    </p>
+                </div>
             </section>
         </>
     )
