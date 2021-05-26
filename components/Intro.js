@@ -14,6 +14,9 @@ const Intro = () => {
                         <a className={introStyles.link}>Neowin</a>
                     </Link>
                 </p>
+                <p>
+                    Also, please look forward to the many new features that will be coming to this app soon!
+                </p>
             </section>
         </>
     )
