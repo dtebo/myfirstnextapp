@@ -1,4 +1,3 @@
-import styles from '../styles/home.module.css'
 import introStyles from '../styles/Intro.module.css'
 
 import Link from 'next/link'
@@ -6,7 +5,7 @@ import Link from 'next/link'
 const Intro = () => {
     return (
         <>
-            <section className={styles.container}>
+            <section>
                 <h1>My First NextJS App!</h1>
                 <p>Welcome to my first next app. I hope you like what you see!</p>
                 <p>
